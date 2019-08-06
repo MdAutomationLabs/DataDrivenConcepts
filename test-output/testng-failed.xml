@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAutomationSuite]">
+  <listeners>
+    <listener class-name="com.retryLogic.MyTransformer"/>
+  </listeners>
+  <test name="RetryMultipleFailedTestCases(failed)">
+    <classes>
+      <class name="com.retryLogic.RetryTest">
+        <methods>
+          <include name="Test1"/>
+        </methods>
+      </class> <!-- com.retryLogic.RetryTest -->
+    </classes>
+  </test> <!-- RetryMultipleFailedTestCases(failed) -->
+</suite> <!-- Failed suite [TestAutomationSuite] -->
